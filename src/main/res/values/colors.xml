@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#f2f2ea</color>
+    <color name="colorPrimary">#FC7070</color>
+    <color name="colorPrimaryDark">#EC7070</color>
+    <color name="toolbarText">#FFFFFF</color>
+    <color name="selectedIndicator">@color/colorPrimary</color>
+    <color name="slidingTabStripBackground">#FFFFFF</color>
+    <color name="darkBackground">#eeeeee</color>
+    <color name="brightBackground">#FFFFFF</color>
+    <color name="bottomTabbarBackground">#FFFFFF</color>
+    <color name="separator">#888888</color>
+
+    <color name="whiteNormal">#FFFFFF</color>
+    <color name="whitePressed">#CCCCCC</color>
+
+    <!-- colors for simple item_info card  -->
+    <color name="sii_card_price">@color/colorPrimary</color>
+    <color name="sii_card_location">#959595</color>
+    <color name="sii_card_title">#383838</color>
+
+    <!-- colors for simpleitem_info list  -->
+    <color name="sii_list_price">@color/colorPrimary</color>
+    <color name="sii_list_location">#959595</color>
+    <color name="sii_list_title">#383838</color>
+
+    <!-- color for camera activity -->
+    <color name="pic_holder_background">#a0888888</color>
+    <color name="func_area_background">#a0444444</color>
+    <color name="camera_text_normal">#f0F0F0F0</color>
+    <color name="camera_text_pressed">#a0888888</color>
+    <color name="camera_text_stoke">#a0FFFFFF</color>
+
+    <!-- color for publish activity -->
+    <color name="publish_prompt">#aaaaaa</color>
+    <color name="publish_edit_text">#888888</color>
+    <color name="publish_cover_background">#F44336</color>
+
+    <!-- color for publish message activity -->
+    <color name="publish_message_edit_stroke">#4CAF50</color>
+
+    <!-- color for search activity -->
+    <color name="search_edit_text">#444444</color>
+
+    <!-- colors for category activity -->
+    <color name="category_card_name">#383838</color>
+    <color name="category_card_info">#959595</color>
+
+    <!-- colors for discovery fragment -->
+    <color name="discovery_card_content_text">#383838</color>
+    <color name="discovery_card_username_text">#959595</color>
+    <color name="discovery_card_userinfo_background">#e0e0e0</color>
+
+    <!-- colors for modify profile activity -->
+    <color name="mp_item_prompt_text">#222222</color>
+    <color name="mp_item_content_text">#888888</color>
+
+    <!-- colors for item specific activity -->
+    <color name="is_price_text">#F44336</color>
+    <color name="is_toolbar_background">#80FC7070</color>
+    <color name="is_toolbar_text_normal">#FFFFFF</color>
+    <color name="is_toolbar_text_pressed">#888888</color>
+
+    <!-- colors for publish image preview -->
+    <color name="pip_delete_button">#F44336</color>
+    <color name="pip_set_cover_button">#00BCD4</color>
+
+    <!-- colors for profile -->
+    <color name="profile_delete_background_normal">#F44336</color>
+    <color name="profile_delete_background_pressed">#E53935</color>
+</resources>

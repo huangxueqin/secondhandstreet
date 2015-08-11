@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:TabIndicator="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/tab_profile_checked" TabIndicator:state_checked="true"
+        />
+
+    <item android:drawable="@drawable/tab_profile_checked" android:state_pressed="true"
+        />
+
+    <item
+        android:drawable="@drawable/tab_profile_normal" />
+</selector>

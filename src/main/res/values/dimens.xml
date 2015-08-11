@@ -1,0 +1,120 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="separator_margin_left">0dp</dimen>
+    <dimen name="separator_margin_right">0dp</dimen>
+
+    <dimen name="card_list_padding_left">16dp</dimen>
+    <dimen name="card_list_padding_right">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_spacing">8dp</dimen>
+    <dimen name="card_margin_bottom">16dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_text">10sp</dimen>
+
+    <!-- dimens for login activity -->
+    <dimen name="login_avatar_size">96dp</dimen>
+    <dimen name="login_avatar_area_size">160dp</dimen>
+    <dimen name="login_edit_text_margin_left">20dp</dimen>
+    <dimen name="login_edit_text_margin_right">20dp</dimen>
+    <dimen name="login_edit_text_padding">5dp</dimen>
+    <dimen name="login_edit_text_sperator_size">20dp</dimen>
+
+    <!-- dimens for simple item_info card -->
+    <dimen name="sii_card_image_height">150dp</dimen>
+    <dimen name="sii_card_info_padding_top">8dp</dimen>
+    <dimen name="sii_card_info_padding_left">15dp</dimen>
+    <dimen name="sii_card_info_text_title">12sp</dimen>
+    <dimen name="sii_card_info_text_location">10sp</dimen>
+    <dimen name="sii_card_info_text_price">10sp</dimen>
+
+    <!-- dimens for simple item_info list -->
+    <dimen name="sii_list_image_size">96dp</dimen>
+    <dimen name="sii_list_info_padding_top">8dp</dimen>
+    <dimen name="sii_list_info_padding_left">5dp</dimen>
+    <dimen name="sii_list_info_text_title">12sp</dimen>
+    <dimen name="sii_list_info_text_location">10sp</dimen>
+    <dimen name="sii_list_info_text_price">10sp</dimen>
+
+    <!-- dimens for category fragment -->
+    <dimen name="category_card_image_size">60dp</dimen>
+    <dimen name="category_card_padding_left">5dp</dimen>
+    <dimen name="category_card_padding_top">8dp</dimen>
+    <dimen name="category_card_text_margin">4dp</dimen>
+    <dimen name="category_card_name_text_size">18sp</dimen>
+    <dimen name="category_card_info_text_size">12sp</dimen>
+
+    <!-- dimens for discovery fragment -->
+    <dimen name="discovery_card_padding">5dp</dimen>
+    <dimen name="discovery_card_content_text">15sp</dimen>
+    <dimen name="discovery_card_avatar_size">32dp</dimen>
+    <dimen name="discovery_card_username_text">13sp</dimen>
+    <dimen name="discovery_card_user_info_vpadding">5dp</dimen>
+
+    <!-- dimen for profile fragment -->
+    <dimen name="profile_avatar_margin_top">40dp</dimen>
+    <dimen name="profile_avatar_size">96dp</dimen>
+    <dimen name="profile_avatar_border_width">2dp</dimen>
+    <dimen name="profile_username_margin_top">15dp</dimen>
+    <dimen name="profile_username_size">15sp</dimen>
+    <dimen name="profile_user_info_zone_height">200dp</dimen>
+    <dimen name="profile_user_activity_zone_padding_top">40dp</dimen>
+    <dimen name="profile_user_activity_zone_padding_left">15dp</dimen>
+    <dimen name="profile_user_pub_list_img">64dp</dimen>
+    <dimen name="profile_user_pub_list_item_padding">5dp</dimen>
+    <dimen name="profile_user_pub_list_padding">15dp</dimen>
+
+    <!-- dimen for modify profile activity -->
+    <dimen name="mp_item_padding_top">15dp</dimen>
+    <dimen name="mp_item_padding_left">15dp</dimen>
+    <dimen name="mp_item_avatar_size">60dp</dimen>
+    <dimen name="mp_item_prompt_text">18sp</dimen>
+    <dimen name="mp_item_content_text">16sp</dimen>
+
+    <!-- dimen for publish activity -->
+    <dimen name="gallery_height">120dp</dimen>
+    <dimen name="gallery_item_size">100dp</dimen>
+    <dimen name="publish_edit_text_margin_left">20dp</dimen>
+    <dimen name="publish_edit_text_margin_right">20dp</dimen>
+    <dimen name="publish_edit_text_prompt_text">15sp</dimen>
+    <dimen name="publish_edit_text_text">20sp</dimen>
+    <dimen name="publish_panel_vertical_padding">5dp</dimen>
+    <dimen name="publish_cover_text">8sp</dimen>
+
+    <!-- dimen for camera activity -->
+    <dimen name="pic_holder_height">100dp</dimen>
+    <dimen name="camera_button_size">60dp</dimen>
+    <dimen name="camera_button_margining_top">10dp</dimen>
+    <dimen name="camera_button_margining_bottom">10dp</dimen>
+
+    <!-- dimen for publish message -->
+    <dimen name="publish_message_content_height">200dp</dimen>
+    <dimen name="publish_message_title_height">40dp</dimen>
+    <dimen name="publish_message_price_height">40dp</dimen>
+    <dimen name="publish_message_h_margin">15dp</dimen>
+    <dimen name="publish_message_divider_size">20dp</dimen>
+
+    <!-- dimen for pip -->
+    <dimen name="pip_button_size">64dp</dimen>
+    <dimen name="pip_button_divider_width">64dp</dimen>
+    <dimen name="pip_button_area_padding">5dp</dimen>
+
+    <!-- dimens for item specific activity -->
+    <dimen name="is_gallery_height">300dp</dimen>
+    <dimen name="is_title_text">18sp</dimen>
+    <dimen name="is_info_zone_padding">15dp</dimen>
+    <dimen name="is_location_text">15sp</dimen>
+    <dimen name="is_avatar_size">30dp</dimen>
+    <dimen name="is_publisher_name_text">15sp</dimen>
+    <dimen name="is_price_text">20sp</dimen>
+    <dimen name="is_price_margin_top">15dp</dimen>
+    <dimen name="is_price_margin_right">15dp</dimen>
+    <dimen name="is_price_size">60dp</dimen>
+
+    <!-- dimen for popup menu -->
+    <dimen name="pop_menu_padding">10dp</dimen>
+    <dimen name="pop_menu_title_text">20dp</dimen>
+    <dimen name="pop_menu_item_text">20dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/is_toolbar_background"
+        xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        toolbar:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        toolbar:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_gravity="bottom|center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/pip_button_area_padding"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <at.markushi.ui.CircleButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/delete_button"
+            android:layout_width="@dimen/pip_button_size"
+            android:layout_height="@dimen/pip_button_size"
+            android:src="@drawable/delete"
+            android:scaleType="center"
+            app:cb_color="@color/pip_delete_button"
+            app:cb_pressedRingWidth="2dp" />
+
+        <at.markushi.ui.CircleButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/set_cover_button"
+            android:layout_marginLeft="@dimen/pip_button_divider_width"
+            android:layout_width="@dimen/pip_button_size"
+            android:layout_height="@dimen/pip_button_size"
+            android:src="@drawable/set_cover"
+            android:scaleType="center"
+            app:cb_color="@color/pip_set_cover_button"
+            app:cb_pressedRingWidth="2dp" />
+    </LinearLayout>
+</FrameLayout>

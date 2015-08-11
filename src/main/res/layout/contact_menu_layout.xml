@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/pop_menu_padding"
+    android:paddingLeft="@dimen/pop_menu_padding"
+    android:paddingRight="@dimen/pop_menu_padding"
+    android:paddingBottom="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/pop_menu_title_text"
+        android:text="@string/is_contact_seller"/>
+    <Button
+        android:id="@+id/contact_phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/pop_menu_item_text"
+        android:text="@string/is_contact_with_phone"/>
+    <Button
+        android:id="@+id/contact_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_contact_with_qq"
+        android:textSize="@dimen/pop_menu_item_text"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/profile_avatar_margin_top"
+    android:layout_marginBottom="@dimen/profile_avatar_margin_top"
+    android:layout_width="@dimen/profile_avatar_size"
+    android:layout_height="@dimen/profile_avatar_size" />

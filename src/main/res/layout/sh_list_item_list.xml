@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteNormal"
+    android:padding="@dimen/sii_list_info_padding_left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_img"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/sii_list_image_size"
+        android:layout_height="@dimen/sii_list_image_size"
+        app:roundedCornerRadius="2dp"/>
+    <RelativeLayout
+        android:paddingTop="@dimen/sii_card_info_padding_top"
+        android:paddingBottom="@dimen/sii_card_info_padding_top"
+        android:paddingLeft="@dimen/sii_card_info_padding_left"
+        android:paddingRight="@dimen/sii_card_info_padding_left"
+        android:layout_toRightOf="@id/item_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sii_list_image_size">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sii_list_info_text_title"
+            android:textColor="@color/sii_list_title" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sii_list_info_text_location"
+            android:textColor="@color/sii_list_location" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sii_list_info_text_price"
+            android:textColor="@color/sii_list_price" />
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabIndicator">
+        <attr name="state_checked" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SimpleImageGrid">
+        <attr name="column_num" format="string" />
+        <attr name="vertical_spacing" format="dimension" />
+        <attr name="horizontal_spacing" format="dimension" />
+    </declare-styleable>
+</resources>

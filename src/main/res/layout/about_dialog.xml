@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t\t千寻，致力于打造校园商品交易便捷平台，给您的生活带来便利，为您创造价值。"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本： 1.0 beta\n制作组： 千寻工作组\n成员： 黄学勤，陈国华，薛洁\nQQ: 1162406847, 1169924472" />
+    </LinearLayout>
+</LinearLayout>

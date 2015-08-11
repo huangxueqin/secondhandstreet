@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/whiteNormal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:id="@+id/delete"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/whiteNormal"
+            android:background="@drawable/delete_button_background"
+            android:text="@string/delete"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteNormal"
+        android:padding="@dimen/sii_list_info_padding_left"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/item_img"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/profile_user_pub_list_img"
+            android:layout_height="@dimen/profile_user_pub_list_img"
+            app:roundedCornerRadius="2dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/sii_card_info_padding_left"
+            android:layout_toRightOf="@id/item_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_user_pub_list_img">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/sii_list_info_text_title"
+                android:textColor="@color/sii_list_title" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sii_list_info_text_location"
+                android:textColor="@color/sii_list_location"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/sii_list_info_text_price"
+                android:textColor="@color/sii_list_price" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout>

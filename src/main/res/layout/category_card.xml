@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/card_corner_radius">
+    <RelativeLayout
+        android:paddingLeft="@dimen/category_card_padding_left"
+        android:paddingRight="@dimen/category_card_padding_left"
+        android:paddingTop="@dimen/category_card_padding_top"
+        android:paddingBottom="@dimen/category_card_padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/category_icon"
+            android:layout_width="@dimen/category_card_image_size"
+            android:layout_height="@dimen/category_card_image_size"
+            app:roundAsCircle="true"/>
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/category_card_text_margin"
+            android:layout_toRightOf="@id/category_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/category_card_image_size">
+            <TextView
+                android:layout_alignParentTop="true"
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/category_card_name_text_size"
+                android:textColor="@color/category_card_name"
+                android:singleLine="true"/>
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/category_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/category_card_info"
+                android:singleLine="true"
+                android:textSize="@dimen/category_card_info_text_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>

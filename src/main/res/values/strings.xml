@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">SHS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_modify_profile">Modify</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_save">Save</string>
+    <string name="action_about">About</string>
+
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="delete">delete</string>
+    <string name="no_data">No Data...</string>
+
+    <!-- strings for main activity -->
+    <string name="main_context_menu_login">start login</string>
+    <string name="main_context_menu_register">start register</string>
+    <string name="main_context_menu_title">you have not login</string>
+    <string name="main_context_menu_title_login">choose what to publish</string>
+    <string name="main_context_menu_publish_message">publish message</string>
+    <string name="main_context_menu_publish_item">publish_item</string>
+
+    <!-- strings for home page titles -->
+    <string name="homeTitleCategory">Category</string>
+    <string name="homeTitleRecommendation">Recommendation</string>
+    <string name="homeTitleNewest">Newest</string>
+    <string name="homeTitleDiscovery">Discovery</string>
+
+    <string name="send">Send</string>
+
+    <!-- string for profile -->
+    <string name="published">Published</string>
+    <string name="collected">Collected</string>
+    <string name="profile_publish_empty_prompt">no product</string>
+    <string name="publish_list_title">published items (swipe right to delete)</string>
+
+    <!-- strings for modify profile -->
+    <string name="modify_label">Modify Profile</string>
+    <string name="save">save</string>
+    <string name="useravatar">user avatar</string>
+    <string name="username">name</string>
+    <string name="password">password</string>
+    <string name="phone">phone number</string>
+    <string name="qq">QQ</string>
+
+
+    <!-- string for login and register -->
+    <string name="lusername">Username</string>
+    <string name="lpassword">Password</string>
+    <string name="lqq">QQ</string>
+    <string name="lphone">Phone</string>
+    <string name="lemail">email</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="prompt_register">Register</string>
+    <string name="prompt_login">Login</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+
+    <!-- strings for category -->
+    <string-array name="categorys">
+        <item>Bike</item>
+        <item>Book</item>
+        <item>Building</item>
+        <item>Computer</item>
+        <item>Football</item>
+        <item>Fridge</item>
+        <item>Mobile Phone</item>
+        <item>Perfume</item>
+        <item>Printer</item>
+        <item>Shoes</item>
+        <item>Trolley</item>
+        <item>Tshirt</item>
+    </string-array>
+
+    <!-- strings for modify profile -->
+    <string name="choose_avatar_dialog_title">choose avatar</string>
+    <string name="choose_avatar_dialog_take_photo">Take a photo</string>
+    <string name="choose_avatar_dialog_choose_from_sdcard">Chose From sdcard</string>
+    <string name="mp_update_username">Update Username</string>
+    <string name="mp_update_userphone">Update Phone</string>
+    <string name="mp_update_userqq">Update QQ</string>
+    <string name="mp_update_password">Update Password</string>
+
+    <!-- strings for publish activity -->
+    <string name="publish_title">Publish</string>
+    <string name="publish_cancel">Cancel</string>
+    <string name="publish_next">Next</string>
+    <string name="publish_prev">Prev</string>
+    <string name="publish_complete">Complete</string>
+    <string name="publish_takephoto">Take Photo</string>
+    <string name="publish_choosecategory">Choose Category</string>
+    <string name="publish_item_title">Title</string>
+    <string name="publish_item_price">price</string>
+    <string name="publish_item_content">content</string>
+    <string name="publish_item_location">Location</string>
+    <string name="publish_item_phone">Phone</string>
+    <string name="publish_item_qq">QQ</string>
+    <string name="publish_alert_cancel">cancel</string>
+    <string name="publish_alert_confirm">confirm</string>
+    <string name="publish_alert_prompt">delete this picture ?</string>
+    <string name="publish_cover">Cover</string>
+    <string name="publish_category">Choose category</string>
+    <string name="publish_unsetting">unsetting</string>
+
+    <!-- strings for publish message -->
+    <string name="publish_message_title">Publish Message</string>
+    <string name="publish_message_publish">publish</string>
+
+    <!-- strings for camera activity -->
+    <string name="camera_cancel">Cancel</string>
+    <string name="camera_confirm">Confirm</string>
+
+    <!-- strings for search activity -->
+    <string name="search_hint">Search</string>
+
+
+    <!-- strings for item specific activity -->
+    <string name="is_location">Location: </string>
+    <string name="is_price">Price: </string>
+    <string name="is_contact_seller">Contact Seller</string>
+    <string name="is_contact_with_phone">contact with phone</string>
+    <string name="is_contact_with_qq">contact with qq</string>
+</resources>
